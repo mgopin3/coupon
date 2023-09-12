@@ -1,0 +1,13 @@
+2023-09-12T04:44:15+00:00 CRITICAL Uncaught SendGrid\Exception\InvalidRequest: Could not send request to server. CURL error 6: Could not resolve host: api.sendgrid.com in /var/www/html/wp-content/plugins/sendgrid/vendor/sendgrid/php-http-client/lib/Client.php:507
+Stack trace:
+#0 /var/www/html/wp-content/plugins/sendgrid/vendor/sendgrid/php-http-client/lib/Client.php(648): SendGrid\Client->makeRequest('post', 'https://api.sen...', Object(SendGrid\Mail\Mail), NULL, false)
+#1 /var/www/html/wp-content/plugins/sendgrid/vendor/sendgrid/sendgrid/lib/BaseSendGridClientInterface.php(63): SendGrid\Client->__call('post', Array)
+#2 /var/www/html/wp-content/plugins/sendgrid/App/Controller/Sendgridmailer.php(36): BaseSendGridClientInterface->send(Object(SendGrid\Mail\Mail))
+#3 /var/www/html/wp-content/plugins/sendgrid/App/Controller/Sendgridmailer.php(20): App\Controller\Sendgridmailer->send('mohansethupathi...', 'test mail', '100200300400500')
+#4 /var/www/html/wp-includes/class-wp-hook.php(310): App\Controller\Sendgridmailer->getPostData('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#6 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_my_acti...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/sendgrid/vendor/sendgrid/php-http-client/lib/Client.php on line 507
+

@@ -1,0 +1,791 @@
+2023-09-11T09:35:48+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, first array member is not a valid class name or object in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#3 /var/www/html/wp-admin/menu.php(420): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin.php(158): require('/var/www/html/w...')
+#5 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T09:36:35+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/plugins/sendgrid/App/Views/send-mail.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/sendgrid/App/Controller/Addadminmenu.php:9
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): App\Controller\Addadminmenu->menuInfo('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(420): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(158): require('/var/www/html/w...')
+#6 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/plugins/sendgrid/App/Controller/Addadminmenu.php on line 9
+
+2023-09-11T10:26:37+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:27:52+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:27:54+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:28:01+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:28:04+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:28:06+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:28:49+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:28:52+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:28:54+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:29:09+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:30:33+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:30:34+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:30:34+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:30:34+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:30:35+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:30:35+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:30:35+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:30:39+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:30:40+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:30:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:31:04+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:31:05+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:31:05+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:31:13+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:31:37+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:31:48+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:31:51+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:31:57+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:32:53+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:33:01+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:33:01+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:36:28+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:37:00+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('_page_send-grid...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:37:06+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:37:12+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:37:21+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('admin_page_send...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:37:23+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('admin_page_send...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:37:24+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('admin_page_send...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:37:27+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:37:28+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:38:35+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:38:37+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:38:38+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:38:38+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:38:38+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:38:50+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:39:01+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:39:53+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:40:08+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:40:09+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:41:37+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:41:53+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:41:54+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:41:54+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:41:54+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:42:11+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:42:22+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:43:51+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:44:13+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:44:29+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:46:30+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:46:31+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:46:33+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:46:41+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:46:45+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:46:50+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:46:52+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:47:32+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:47:54+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:47:55+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:54:15+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:54:26+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:54:29+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:54:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:55:29+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:55:31+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:56:13+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:56:14+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:56:23+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:56:24+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:57:25+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:57:26+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:59:13+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:59:14+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:59:14+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T10:59:16+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T11:00:59+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T11:05:04+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sendgrid_callback" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/admin.php(259): do_action('mail_page_send-...')
+#3 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-09-11T11:14:42+00:00 CRITICAL Uncaught TypeError: trim(): Argument #1 ($string) must be of type string, array given in /var/www/html/wp-includes/link-template.php:3901
+Stack trace:
+#0 /var/www/html/wp-includes/link-template.php(3901): trim(Array)
+#1 /var/www/html/wp-admin/includes/plugin.php(1326): set_url_scheme(Array)
+#2 /var/www/html/wp-content/plugins/sendgrid/App/Routes.php(36): add_menu_page('mail', 'Send Grid Mail', 'Send Grid Mail', 'manage_options', 'send-grid-mail-...', Array, 1)
+#3 /var/www/html/wp-includes/class-wp-hook.php(310): App\Routes->mailpage('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#7 /var/www/html/wp-admin/menu.php(420): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/admin.php(158): require('/var/www/html/w...')
+#9 {main}
+  thrown in /var/www/html/wp-includes/link-template.php on line 3901
+
+2023-09-11T11:15:01+00:00 CRITICAL Uncaught TypeError: trim(): Argument #1 ($string) must be of type string, array given in /var/www/html/wp-includes/link-template.php:3901
+Stack trace:
+#0 /var/www/html/wp-includes/link-template.php(3901): trim(Array)
+#1 /var/www/html/wp-admin/includes/plugin.php(1326): set_url_scheme(Array)
+#2 /var/www/html/wp-content/plugins/sendgrid/App/Routes.php(44): add_menu_page('mail', 'Send Grid Mail', 'Send Grid Mail', 'manage_options', 'send-grid-mail-...', Array, 1)
+#3 /var/www/html/wp-includes/class-wp-hook.php(310): App\Routes->mailpage('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#7 /var/www/html/wp-admin/menu.php(420): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/admin.php(158): require('/var/www/html/w...')
+#9 {main}
+  thrown in /var/www/html/wp-includes/link-template.php on line 3901
+
+2023-09-11T12:05:41+00:00 CRITICAL Uncaught Error: Class "App\Controller\ValidationController" not found in /var/www/html/wp-content/plugins/sendgrid/App/Controller/Sendgridmailer.php:22
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): App\Controller\Sendgridmailer->getPostData('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in /var/www/html/wp-content/plugins/sendgrid/App/Controller/Sendgridmailer.php on line 22
+
+2023-09-11T12:07:43+00:00 CRITICAL Uncaught Error: Class "App\Controller\ValidationController" not found in /var/www/html/wp-content/plugins/sendgrid/App/Controller/Sendgridmailer.php:22
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): App\Controller\Sendgridmailer->getPostData('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in /var/www/html/wp-content/plugins/sendgrid/App/Controller/Sendgridmailer.php on line 22
+
+2023-09-11T12:10:00+00:00 CRITICAL Uncaught Error: Class "App\Controller\ValidationController" not found in /var/www/html/wp-content/plugins/sendgrid/App/Controller/Sendgridmailer.php:22
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): App\Controller\Sendgridmailer->getPostData('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in /var/www/html/wp-content/plugins/sendgrid/App/Controller/Sendgridmailer.php on line 22
+
+2023-09-11T12:10:14+00:00 CRITICAL Uncaught Error: Class "App\Controller\ValidationController" not found in /var/www/html/wp-content/plugins/sendgrid/App/Controller/Sendgridmailer.php:22
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): App\Controller\Sendgridmailer->getPostData('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_my_acti...')
+#4 {main}
+  thrown in /var/www/html/wp-content/plugins/sendgrid/App/Controller/Sendgridmailer.php on line 22
+
