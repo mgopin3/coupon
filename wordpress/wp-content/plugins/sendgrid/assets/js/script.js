@@ -1,4 +1,3 @@
-
 function formSubmit(){
 
     const my_subject = document.getElementById("subject");
@@ -16,24 +15,25 @@ function formSubmit(){
                 body: formData,
                 dataType:"json"
             })
-            .then(function(response) {
-                
-                //console.log(response);
-                if(response.status===200){
-                    alert("success");
-                    location.reload();
-                }else{
-                    alert("failed");
+            .then((response) => response.json())
+            .then(json => {
+                try {
+                  //console.log(json);
+                  if(json.success == true)
+                  {
+                    alert('Mail Sent Successfully');
+                  }else{
+                    alert('Invalid Email Address')
+                  }
+                  
+                } catch(err) {
+                    alert('Mail Sending Error')
                 }
-            }).catch(()=>{
-              alert("failed");
-            })
+              });
 
         }else{
             alert("please fill All required Boxes");
         }
-
-
 
     })
 }

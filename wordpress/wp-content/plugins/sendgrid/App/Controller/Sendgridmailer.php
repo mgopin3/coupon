@@ -3,6 +3,8 @@
 namespace App\Controller;
 use SendGrid\Mail\Mail;
 
+if( ! defined('ABSPATH') ) exit();
+
 class Sendgridmailer 
 {
 
@@ -10,21 +12,30 @@ class Sendgridmailer
     private $email;
     private $sendgrid;
     private $response;
+    private static $sanitization;
    
     public function getPostData(){
-
+         
         if ( isset( $_POST['tomail'] )  && isset( $_POST['subject'] )  &&  isset( $_POST['message'] ) ) {
-            $_POST['tomail']= trim( $_POST['tomail']);
-            $_POST['subject']= trim( $_POST['subject']);
-            $_POST['message']= trim( $_POST['message']);
-            $this->response = $this->send($_POST['tomail'],$_POST['subject'],$_POST['message']);
+
+            self::$sanitization = empty( self::$sanitization ) ? new Sanitize() : self::$sanitization;
+
+            $tomail = self::$sanitization->Email( $_POST['tomail'] );
+            $subject = self::$sanitization->Text( $_POST['subject'] );
+            $message = self::$sanitization->Text( $_POST['message'] );
+
+            if( empty($tomail) ) wp_send_json_error( array("response" => "Invalid Email") );
+
+            $this->response = $this->Send( $tomail, $subject, $message );
+
         }else{
-            wp_send_json_error(array("response" => 0));
+            wp_send_json_error( array("response" => '0') );
         }
 
     }
 
-    public function send($to, $subject, $message ){
+    public function Send($to, $subject, $message )
+    {
 
         $this->email = new Mail();
         $this->email->setFrom('mohansethupathi@gmail.com', 'Mohan');
@@ -35,11 +46,7 @@ class Sendgridmailer
         $this->sendgrid = new \SendGrid($this->api_key);
         $this->response = $this->sendgrid ->send($this->email);
 
-        // echo "<pre>";
-        // print_r($this->response);
-        // echo "</pre>";
-
-         wp_send_json_success(array("response" => $this->response->statusCode()));
+         wp_send_json_success( array("response" => $this->response->statusCode()) );
 
     }
 

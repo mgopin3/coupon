@@ -1,45 +1,51 @@
 <?php
 
 namespace App;
-
 use \App\Controller;
+
+if( ! defined('ABSPATH') ) exit();
 
 class Routes
 {
    
-   private $send_mail;
+   private static $send_mail;
+   private static $enqueue;
 
    public function __construct()
    {
-      $this->send_mail = empty( $this->$send_mail) ?  new \App\Controller\Sendgridmailer() : $this->$send_mail;
-      add_action( 'wp_ajax_my_action', array( $this->send_mail,'getPostData'));
+      
+      self::$send_mail = empty( self::$send_mail ) ? new \App\Controller\Sendgridmailer() : self::$send_mail;
+      self::$enqueue = empty( self::$enqueue ) ? new \App\Controller\Enqueue() : self::$enqueue;
+      
    }
 
    public function AddActions()
    {
- 
-    add_action( 'admin_menu', array( $this, 'mailpage'));   
-    
-   }
+       add_action('admin_enqueue_scripts',array(self::$enqueue,'EnqueueList'));
+       add_action( 'wp_ajax_my_action', array( self::$send_mail,'getPostData'));
+       add_action( 'admin_menu', array( $this, 'MailPage'));   
+           
+   }  
 
-   public function mailpage()
+   public function MailPage()
    {
-
+      
       add_menu_page( 
          __( 'Mail', 'textdomain' ),
          'Mail',
          'manage_options',
          'mail',
-          array($this,'sendgrid_callback'),
+          array($this,'SendgridCallback'),
          'dashicons-email',
          10
       ); 
 
    }
 
-   public function sendgrid_callback()
+
+   public function SendgridCallback()
    {
-      wp_enqueue_script('formvalidation', plugins_url( 'assets/js/script.js', __FILE__ ) );
+      
       require_once WP_PLUGIN_DIR . "/sendgrid/App/View/send-mail.php";
 
    }

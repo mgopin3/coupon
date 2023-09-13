@@ -17,28 +17,15 @@
  */
 
 
+if( ! defined('ABSPATH') ) exit();
 
-defined('ABSPATH') or die('not access');
+if(!file_exists( WP_PLUGIN_DIR . '/sendgrid/vendor/autoload.php' )) return;
 
+require_once WP_PLUGIN_DIR . '/sendgrid/vendor/autoload.php';
 
-if(file_exists( WP_PLUGIN_DIR . '/sendgrid/vendor/autoload.php' )){
-    require_once WP_PLUGIN_DIR . '/sendgrid/vendor/autoload.php';
-}else{
-    die();
-}
+if(!class_exists('App\\Routes')) return;
 
-if(class_exists('App\\Routes'))
-{
-    $routes =  new App\Routes();
-    $routes->AddActions();
-}else{
-    die();
-}
+$routes =  new App\Routes();
+$routes->AddActions();
 
 ?>
-
-
-
-
-
-
